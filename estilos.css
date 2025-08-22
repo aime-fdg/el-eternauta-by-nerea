@@ -1,0 +1,93 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+/*configuraciones generales*/
+
+@font-face {
+    font-family: "Comic Sans";
+    src: url(fuentes/comic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Sans Bold";
+    src: url(fuentes/comicbd.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Sans Italic";
+    src: url(fuentes/comici.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Comic Sans Bold Italic";
+    src: url(fuentes/comicz.ttf) format(truetype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+* {
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #c3e6e2;
+}
+
+/*aca empiezan las aplicaciones*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Comic Sans', sans-serif;
+    color: #2e2b25;
+
+}
+
+h1,
+h2 {
+    text-align: left;
+    color: #fbf5e7;
+}
+
+h1 {
+    font-size: 3.2rem;
+    /*line-height: 1rem;*/
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    color: rgb(18, 18, 255);
+}
+
+p {
+    text-wrap-style: balance;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+#hero {
+    background-image: url(img/banner-hero-cara-darín.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#bienvenida {
+    background-image: url(img/snow-pattern.png);
+}
+
+#frase {
+    font-size: 3rem;
+    background: linear-gradient(45deg, #00BCD4, #FF5722);
+}
