@@ -36,6 +36,9 @@
     text-align: center;
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -81,7 +84,17 @@ p {
     background-image: url(img/banner-hero-cara-darín.webp);
     background-size: cover;
     background-position: center;
+    height: 70vh;
+    padding: 30px;
+    margin: 20px 0;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #3F51B5;
+    border-style: solid;
 }
+
 
 #bienvenida {
     background-image: url(img/snow-pattern.png);
@@ -90,4 +103,19 @@ p {
 #frase {
     font-size: 3rem;
     background: linear-gradient(45deg, #00BCD4, #FF5722);
+    padding: 20px;
+    min-height: 20vh;
+    line-height: 3rem;
+    max-width: 800px;
+    margin: 30px 0;
+    border-radius: 10px;
+
+    p {
+        line-height: 3.5rem;
+    }
 }
+
+/*
+#frase p {
+    line-height: 3.5rem;
+}*/
