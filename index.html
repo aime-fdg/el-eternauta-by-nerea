@@ -12,13 +12,15 @@
 
 <body>
     <header>
-        <img src="img/eternauta-logo.png" alt="Logo del Eternauta" width="25" height="25" />
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">El Autor</a>
-            <a href="#">La Historieta</a>
-            <a href="#">La Serie</a>
-        </nav>
+        <div class="contenedor">
+            <img src="img/eternauta-logo.png" alt="Logo del Eternauta" width="25" height="25" />
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">El Autor</a>
+                <a href="#">La Historieta</a>
+                <a href="#">La Serie</a>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- Aca va ser un hero -->
@@ -34,7 +36,7 @@
                 convertido en un símbolo de resistencia y memoria colectiva.</p>
         </section>
 
-        <section>
+        <section id="tarjetas">
             <a>
                 <h3>Conocé al autor</h3>
                 <img src="img/hector-german-oesterheld-joven.jpg" alt="Foto de Oesterheld Joven" width="250"
@@ -52,148 +54,201 @@
             </a>
         </section>
 
-        <blockquote class="frase">
+        <blockquote>
             <p>El verdadero héroe colectivo es el pueblo.</p>
         </blockquote>
 
-        <section>
+        <section id="el-autor">
             <h3>Héctor Germán Oesterheld</h3>
             <h4>Conocé al autor</h4>
             <article>
-                <img src="img/el-autor/oesterheld-hora-cero.png" alt="">
-                <p>Héctor Germán Oesterheld nació en Buenos Aires el 23 de julio de 1919 y fue originalmente geólogo,
-                    graduado de la Universidad de Buenos Aires, antes de dedicarse por completo a la escritura y al
-                    mundo de
-                    las historietas.</p>
-                <p>Comenzó publicando cuentos para chicos en 1943, como “Truila y Miltar” en el suplemento literario del
-                    diario <span>La Prensa</span>. En la década de 1950 se destacó como
-                    guionista en revistas como Misterix, Hora Cero y Frontera, donde creó personajes emblemáticos como
-                    Bull
-                    Rocket, El Sargento Kirk, Ernie Pike y, por supuesto, <span>El Eternauta</span>.</p>
-                <p>En 1957 fundó, junto a su hermano Jorge, la Editorial Frontera y allí, con dibujos de Francisco
-                    Solano
-                    López, lanzó <span>El Eternauta</span>, considerada su obra cumbre y un punto de inflexión en la
-                    historieta latinoamericana.</p>
-                <p>A lo largo de los años 60, su trabajo fue adquiriendo un fuerte compromiso político. En 1968 escribió
-                    la
-                    historieta <span>Vida del Che</span>, censurada por la dictadura, y en 1969 reeditó <span>El
-                        Eternauta</span>
-                    junto a Alberto Breccia, con una mirada ideológica más explícita.</p>
-                <p>Durante la última dictadura militar argentina, Oesterheld se sumó como militante de Montoneros y
-                    asumió
-                    funciones de prensa junto a sus hijas. Fue secuestrado por el régimen el 27 de abril de 1977 en La
-                    Plata, y desaparecido desde entonces.</p>
+                <img src="img/el-autor/oesterheld-hora-cero.png" alt="Oesterheld sosteniendo un suplemento de Hora Cero"
+                    width="550" height="621">
+                <div class="composicion-parrafos">
+                    <p>Héctor Germán Oesterheld nació en Buenos Aires el 23 de julio de 1919 y fue originalmente
+                        geólogo,
+                        graduado de la Universidad de Buenos Aires, antes de dedicarse por completo a la escritura y al
+                        mundo de
+                        las historietas.</p>
+                    <p>Comenzó publicando cuentos para chicos en 1943, como “Truila y Miltar” en el suplemento literario
+                        del
+                        diario <span>La Prensa</span>. En la década de 1950 se destacó como
+                        guionista en revistas como Misterix, Hora Cero y Frontera, donde creó personajes emblemáticos
+                        como
+                        Bull
+                        Rocket, El Sargento Kirk, Ernie Pike y, por supuesto, <span>El Eternauta</span>.</p>
+                    <p>En 1957 fundó, junto a su hermano Jorge, la Editorial Frontera y allí, con dibujos de Francisco
+                        Solano
+                        López, lanzó <span>El Eternauta</span>, considerada su obra cumbre y un punto de inflexión en la
+                        historieta latinoamericana.</p>
+                    <p>A lo largo de los años 60, su trabajo fue adquiriendo un fuerte compromiso político. En 1968
+                        escribió
+                        la
+                        historieta <span>Vida del Che</span>, censurada por la dictadura, y en 1969 reeditó <span>El
+                            Eternauta</span>
+                        junto a Alberto Breccia, con una mirada ideológica más explícita.</p>
+                    <p>Durante la última dictadura militar argentina, Oesterheld se sumó como militante de Montoneros y
+                        asumió
+                        funciones de prensa junto a sus hijas. Fue secuestrado por el régimen el 27 de abril de 1977 en
+                        La
+                        Plata, y desaparecido desde entonces.</p>
+                </div>
             </article>
-            <img src="img/el-autor/editorial-frontera.jpg" alt="">
-            <img src="img/el-autor/ernie-pike.webp" alt="">
-            <img src="img/el-autor/sargento-kirk.webp" alt="">
-            <h4>Bibliografía:</h4>
-            <ul>
-                <li><a href="https://www.cultura.gob.ar/hector-g-oesterheld-el-fundador-de-la-historieta-argentina-moderna-9280/"
-                        target="_blank">Biografía en Cultura.gob.ar: datos de nacimiento, trayectoria y obras.</a></li>
-                <li><a href="https://www.biografiasyvidas.com/biografia/o/oesterheld.htm" target="_blank">Biografías y
-                        Vidas: lista de sus publicaciones y detalles personales.</a></li>
-            </ul>
+            <div class="galeria">
+                <figure>
+                    <img src="img/el-autor/editorial-frontera.jpg" alt="">
+                    <figcaption>Editorial Frontera</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/el-autor/ernie-pike.webp" alt="">
+                    <figcaption>Ernie Pike</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/el-autor/sargento-kirk.webp" alt="">
+                    <figcaption>Sargento Kirk</figcaption>
+                </figure>
+
+            </div>
+            <div class="bibliografia">
+                <h4>Bibliografía:</h4>
+                <ul>
+                    <li><a href="https://www.cultura.gob.ar/hector-g-oesterheld-el-fundador-de-la-historieta-argentina-moderna-9280/"
+                            target="_blank">Biografía en Cultura.gob.ar: datos de nacimiento, trayectoria y obras.</a>
+                    </li>
+                    <li><a href="https://www.biografiasyvidas.com/biografia/o/oesterheld.htm" target="_blank">Biografías
+                            y
+                            Vidas: lista de sus publicaciones y detalles personales.</a></li>
+                </ul>
+            </div>
         </section>
 
-        <section>
+        <section id="el-comic">
             <h3>El Eternauta</h3>
             <h4>Memorias de un navegante del porvenir</h4>
             <article>
-                <p><span>El Eternauta</span> (subtítulo: Memorias de un navegante del porvenir) es una
-                    historieta argentina de ciencia ficción creada por Héctor Germán Oesterheld y el dibujante Francisco
-                    Solano López. Fue publicada originalmente en la revista <span>Hora Cero Semanal</span> entre 1957 y
-                    1959, y desde entonces se ha convertido en una obra emblemática del medio.</p>
-                <p>La trama comienza con una nevada tóxica que arrasa Buenos Aires, eliminando gran parte de la
-                    población. Juan Salvo, el “Eternauta”, lidera un grupo de supervivientes que resisten la invasión
-                    extraterrestre a través del ingenio colectivo y la solidaridad.</p>
-                <p>El entorno urbano reconocible (como la avenida General Paz, el Congreso Nacional o el estadio de
-                    River Plate) acerca lo fantástico al lector y subraya el carácter cotidiano de sus protagonistas,
-                    que se enfrentan al apocalipsis sin capa ni poderes especiales.</p>
-                <p>El mensaje de fondo de la historieta desafía la idea del héroe individual y promueve en cambio la
-                    figura del héroe colectivo. Oesterheld sostuvo que “el único héroe válido es el héroe en grupo”; la
-                    narración refuerza que solo la unión y la estrategia compartida pueden garantizar la supervivencia.
-                </p>
-                <p>Desde su aparición, la obra alcanzó reconocimiento nacional e internacional: en Argentina el 4 de
-                    septiembre, fecha de su primera publicación, fue declarado el “Día del Cómic Argentino”, y su
-                    edición en inglés ganó el Premio Eisner en 2015.</p>
+                <div class="composicion-parrafos">
+                    <p><span>El Eternauta</span> (subtítulo: Memorias de un navegante del porvenir) es una
+                        historieta argentina de ciencia ficción creada por Héctor Germán Oesterheld y el dibujante
+                        Francisco
+                        Solano López. Fue publicada originalmente en la revista <span>Hora Cero Semanal</span> entre
+                        1957 y
+                        1959, y desde entonces se ha convertido en una obra emblemática del medio.</p>
+                    <p>La trama comienza con una nevada tóxica que arrasa Buenos Aires, eliminando gran parte de la
+                        población. Juan Salvo, el “Eternauta”, lidera un grupo de supervivientes que resisten la
+                        invasión
+                        extraterrestre a través del ingenio colectivo y la solidaridad.</p>
+                    <p>El entorno urbano reconocible (como la avenida General Paz, el Congreso Nacional o el estadio de
+                        River Plate) acerca lo fantástico al lector y subraya el carácter cotidiano de sus
+                        protagonistas,
+                        que se enfrentan al apocalipsis sin capa ni poderes especiales.</p>
+                    <p>El mensaje de fondo de la historieta desafía la idea del héroe individual y promueve en cambio la
+                        figura del héroe colectivo. Oesterheld sostuvo que “el único héroe válido es el héroe en grupo”;
+                        la
+                        narración refuerza que solo la unión y la estrategia compartida pueden garantizar la
+                        supervivencia.
+                    </p>
+                    <p>Desde su aparición, la obra alcanzó reconocimiento nacional e internacional: en Argentina el 4 de
+                        septiembre, fecha de su primera publicación, fue declarado el “Día del Cómic Argentino”, y su
+                        edición en inglés ganó el Premio Eisner en 2015.</p>
+                </div>
+
                 <img src="img/la-historieta/el-eternauta-fullbody.jpg" alt="">
             </article>
-            <img src="img/la-historieta/dia-de-la-historieta.png" alt="">
-            <img src="img/la-historieta/estadio-river.jpg" alt="">
-            <img src="img/la-historieta/hora-cero-semanal.jpg" alt="">
-            <img src="img/la-historieta/juan-salvo.jpg" alt="">
-            <img src="img/la-historieta/premio-einser.png" alt="">
-            <h4>Bibliografía:</h4>
-            <ul>
-                <li>Wikipedia: datos sobre origen, publicación y reediciones.</li>
-                <li>Artículo en El Diario de la Región: contexto, trama y publicación original.</li>
-                <li>Tecnne: impacto cultural, premios y adaptaciones contemporáneas.</li>
-                <li>Responsabilidad Cultural: tema del héroe colectivo en la obra.</li>
-            </ul>
+            <div class="galeria">
+                <img src="img/la-historieta/dia-de-la-historieta.png" alt="">
+                <img src="img/la-historieta/estadio-river.jpg" alt="">
+                <img src="img/la-historieta/hora-cero-semanal.jpg" alt="">
+                <img src="img/la-historieta/juan-salvo.jpg" alt="">
+                <img src="img/la-historieta/premio-einser.png" alt="">
+            </div>
+
+            <div class="bibliografia">
+                <h4>Bibliografía:</h4>
+                <ul>
+                    <li>Wikipedia: datos sobre origen, publicación y reediciones.</li>
+                    <li>Artículo en El Diario de la Región: contexto, trama y publicación original.</li>
+                    <li>Tecnne: impacto cultural, premios y adaptaciones contemporáneas.</li>
+                    <li>Responsabilidad Cultural: tema del héroe colectivo en la obra.</li>
+                </ul>
+            </div>
         </section>
+
         <aside>
             <h3>Curiosidad</h3>
             <p>El 4 de septiembre, fecha de la primera publicación de <span>El Eternauta</span>, se celebra el <span>Día
                     de la Historieta Argentina</span>.</p>
         </aside>
-        <section>
+
+        <section id="netflix">
             <h3>La serie de Netflix</h3>
             <h4>Readaptación en tiempos modernos</h4>
             <article>
                 <img src="img/la-serie/bruno-stagnaro.jpg" alt="">
-                <p>En 2025 Netflix estrenó la primera adaptación audiovisual de <span>El Eternauta</span>, dirigida por
-                    Bruno Stagnaro y protagonizada por <span>Ricardo Darín</span> como Juan Salvo. La serie consta de
-                    seis episodios y fue producida por K&S Films en colaboración con Netflix.</p>
-                <p>La historia se traslada a la Buenos Aires actual, incorporando nuevas miradas sobre los personajes y
-                    escenarios, con más de 35 locaciones reales y tecnología de “Virtual Production”.</p>
-                <p>La producción tuvo gran impacto: alcanzó el Top 10 global de Netflix y ya confirmó una segunda
-                    temporada, reavivando el interés por la obra de Oesterheld y su mensaje sobre el héroe colectivo.
-                </p>
+                <div class="composicion-parrafos">
+                    <p>En 2025 Netflix estrenó la primera adaptación audiovisual de <span>El Eternauta</span>, dirigida
+                        por
+                        Bruno Stagnaro y protagonizada por <span>Ricardo Darín</span> como Juan Salvo. La serie consta
+                        de
+                        seis episodios y fue producida por K&S Films en colaboración con Netflix.</p>
+                    <p>La historia se traslada a la Buenos Aires actual, incorporando nuevas miradas sobre los
+                        personajes y
+                        escenarios, con más de 35 locaciones reales y tecnología de “Virtual Production”.</p>
+                    <p>La producción tuvo gran impacto: alcanzó el Top 10 global de Netflix y ya confirmó una segunda
+                        temporada, reavivando el interés por la obra de Oesterheld y su mensaje sobre el héroe
+                        colectivo.
+                    </p>
+                </div>
             </article>
             <h4>Elenco</h4>
-            <img src="img/la-serie/ariel-staltari.jpg" alt="">
-            <img src="img/la-serie/carla-petterson.jpg" alt="">
-            <img src="img/la-serie/césar-troncoso.jpg" alt="">
-            <img src="img/la-serie/ricardo-darín.webp" alt="">
-            <img src="img/la-serie/oriana-cardenas.jpg" alt="">
-            <img src="img/la-serie/marcelo-subiotto.jpg" alt="">
-            <h4>Bibliografía:</h4>
-            <ul>
-                <li><a href="https://es.wikipedia.org/wiki/El_Eternauta_(serie_de_televisi%C3%B3n)"
-                        target="_blank">Wikipedia: datos
-                        generales de la serie</a></li>
-                <li><a href="https://www.infobae.com/que-puedo-ver/2025/03/06/el-eternauta-la-iconica-novela-grafica-argentina-llega-a-netflix-con-una-ambiciosa-adaptacion-audiovisual/"
-                        target="_blank">Infobae:
-                        estreno, elenco y producción</a></li>
-                <li><a href="https://www.pagina12.com.ar/822278-el-eternauta-respeto-la-serie-de-netflix-la-esencia-del-comi"
-                        target="_blank">Página
-                        12: adaptación y cambios narrativos</a>
-                </li>
-            </ul>
+            <div class="galeria">
+                <img src="img/la-serie/ariel-staltari.jpg" alt="">
+                <img src="img/la-serie/carla-petterson.jpg" alt="">
+                <img src="img/la-serie/césar-troncoso.jpg" alt="">
+                <img src="img/la-serie/ricardo-darín.webp" alt="">
+                <img src="img/la-serie/oriana-cardenas.jpg" alt="">
+                <img src="img/la-serie/marcelo-subiotto.jpg" alt="">
+            </div>
+            <div class="bibliografia">
+                <h4>Bibliografía:</h4>
+                <ul>
+                    <li><a href="https://es.wikipedia.org/wiki/El_Eternauta_(serie_de_televisi%C3%B3n)"
+                            target="_blank">Wikipedia: datos
+                            generales de la serie</a></li>
+                    <li><a href="https://www.infobae.com/que-puedo-ver/2025/03/06/el-eternauta-la-iconica-novela-grafica-argentina-llega-a-netflix-con-una-ambiciosa-adaptacion-audiovisual/"
+                            target="_blank">Infobae:
+                            estreno, elenco y producción</a></li>
+                    <li><a href="https://www.pagina12.com.ar/822278-el-eternauta-respeto-la-serie-de-netflix-la-esencia-del-comi"
+                            target="_blank">Página
+                            12: adaptación y cambios narrativos</a>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <blockquote class="frase">
+        <blockquote>
             <p>Nadie se salva solo</p>
         </blockquote>
 
     </main>
+    
     <footer>
-        <p>Cátedra Wischñevsky 2025</p>
-        <ul>
-            <li>
-                <img src="img/instagram_icon.png" alt="ícono facebook">
-                <a href="https://www.instagram.com/eleternauta_ok/">Instagram</a>
-            </li>
-            <li>
-                <img src="img/facebook.jpg" alt="ícono facebook">
-                <a href="https://www.facebook.com/watch/?v=2194918857628965">Facebook</a>
-            </li>
-            <li>
-                <img src="img/tiktok-icon.webp" alt="ícono tiktok">
-                <a href="https://www.tiktok.com/@eleternauta2025?lang=es-419">Tiktok</a>
-            </li>
-        </ul>
+        <div class="contenedor">
+            <p>Cátedra Wischñevsky 2025</p>
+            <ul>
+                <li>
+                    <img src="img/instagram_icon.png" alt="ícono facebook">
+                    <a href="https://www.instagram.com/eleternauta_ok/">Instagram</a>
+                </li>
+                <li>
+                    <img src="img/facebook.jpg" alt="ícono facebook">
+                    <a href="https://www.facebook.com/watch/?v=2194918857628965">Facebook</a>
+                </li>
+                <li>
+                    <img src="img/tiktok-icon.webp" alt="ícono tiktok">
+                    <a href="https://www.tiktok.com/@eleternauta2025?lang=es-419">Tiktok</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 

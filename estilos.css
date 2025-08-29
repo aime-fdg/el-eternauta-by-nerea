@@ -33,7 +33,6 @@
 
 * {
     font-family: "Public Sans", sans-serif;
-    text-align: center;
     list-style: none;
     text-decoration: none;
     margin: 0;
@@ -43,6 +42,41 @@
 
 body {
     background-color: #c3e6e2;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 1200px;
 }
 
 /*aca empiezan las aplicaciones*/
@@ -58,7 +92,7 @@ h3 {
 h1,
 h2 {
     text-align: left;
-    color: #fbf5e7;
+    color: unset;
 }
 
 h1 {
@@ -75,9 +109,8 @@ h3 {
 }
 
 p {
-    text-wrap-style: balance;
-    text-align: center;
     line-height: 1.8rem;
+    max-width: 800px;
 }
 
 #hero {
@@ -86,31 +119,116 @@ p {
     background-position: center;
     height: 70vh;
     padding: 30px;
-    margin: 20px 0;
     border-top-width: 30px;
     border-bottom-width: 30px;
     border-left-width: 0;
     border-right-width: 0;
     border-color: #3F51B5;
     border-style: solid;
+    text-shadow: 0px 0px 20px black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
 #bienvenida {
     background-image: url(img/snow-pattern.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 20px;
 }
 
-.frase {
+#tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-direction: row;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+blockquote {
     font-size: 3rem;
     background: linear-gradient(45deg, #00BCD4, #FF5722);
     padding: 20px;
     min-height: 20vh;
     line-height: 3rem;
+    width: 100vw;
     max-width: 800px;
     margin: 30px 0;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     p {
         line-height: 3.5rem;
+        text-align: center;
+        text-wrap: balance;
+    }
+}
+
+.composicion-parrafos {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 420px;
+}
+
+.bibliografia {
+    padding: 40px;
+    border: #007888 2px solid;
+    margin: 40px 0 20px 0;
+    border-radius: 17px;
+    corner-shape: scoop;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #007888;
+}
+
+#el-autor,
+#el-comic,
+#netflix {
+    article {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+#el-comic article img {
+    mix-blend-mode: multiply
+}
+
+#netflix .galeria {
+    max-width: 1200px;
+}
+
+footer {
+    color: white;
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+        li {
+            display: flex;
+            align-items: center;
+        }
     }
 }
