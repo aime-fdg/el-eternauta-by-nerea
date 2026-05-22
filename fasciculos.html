@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title>El Eternauta by Nerea</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="lightbox/jquery.fancybox.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
@@ -25,7 +26,14 @@
 
     <main>
         <div id="galería-portadas">
+            
+            <a href="img/fasciculos/tapa-f1.jpg" data-fancybox="gallery" data-caption="Portada del primer fascículo del Eternauta">
+                <img src="img/fasciculos/tapa-f1-thumbnail.jpg" alt="Portada del primer fascículo del Eternauta" />
+            </a>
 
+            <a href="img/fasciculos/tapa-f2.jpg" data-fancybox="gallery" data-caption="Portada del segundo fascículo del Eternauta">
+                <img src="img/fasciculos/tapa-f2-thumbnail.jpg" alt="Portada del segundo fascículo del Eternauta" />
+            </a>
         </div>
     </main>
 
@@ -49,6 +57,8 @@
         </div>
     </footer>
 
+    <script src="lightbox/jquery.min.js"></script>
+    <script src="lightbox/jquery.fancybox.js"></script>
 </body>
 
 </html>
